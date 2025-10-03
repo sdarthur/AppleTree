@@ -1,0 +1,13 @@
+{
+  "itemGroup.aatm": "Example Mod Tab",
+  "block.aatm.example_block": "Example Block",
+  "item.aatm.example_item": "Example Item",
+
+  "aatm.configuration.title": "Another Apple Tree Mod Configs",
+  "aatm.configuration.section.aatm.common.toml": "Another Apple Tree Mod Configs",
+  "aatm.configuration.section.aatm.common.toml.title": "Another Apple Tree Mod Configs",
+  "aatm.configuration.items": "Item List",
+  "aatm.configuration.logDirtBlock": "Log Dirt Block",
+  "aatm.configuration.magicNumberIntroduction": "Magic Number Text",
+  "aatm.configuration.magicNumber": "Magic Number"
+}
