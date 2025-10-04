@@ -27,6 +27,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
+//TODO: make it work like a crop maybe? lookup the rice from farmer's delight
 public class AppleLeafBlock extends LeavesBlock implements BonemealableBlock {
     public static final int MAX_AGE = 2;
     public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 2);
