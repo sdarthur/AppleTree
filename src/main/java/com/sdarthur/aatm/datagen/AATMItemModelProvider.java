@@ -1,4 +1,4 @@
-package com.sdarthur.datagen;
+package com.sdarthur.aatm.datagen;
 
 import com.sdarthur.aatm.AnotherAppleTreeMod;
 import com.sdarthur.aatm.block.AATMBlocks;

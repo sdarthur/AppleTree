@@ -1,6 +1,8 @@
 package com.sdarthur.aatm.block;
 
 import com.sdarthur.aatm.AnotherAppleTreeMod;
+import com.sdarthur.aatm.block.custom.AATMLeavesBlock;
+import com.sdarthur.aatm.block.custom.AppleLeafBlock;
 import com.sdarthur.aatm.item.AATMItems;
 import com.sdarthur.aatm.worldgen.tree.AATMTreeGrower;
 import net.minecraft.world.item.BlockItem;
@@ -20,6 +22,18 @@ public class AATMBlocks {
 
     public static final DeferredBlock<Block> APPLE_TREE_SAPLING = registerBlock("apple_tree_sapling",
             () -> new SaplingBlock(AATMTreeGrower.APPLE_TREE, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    public static final DeferredBlock<Block> APPLE_LEAVES = registerBlock("apple_leaves",
+            () -> new AppleLeafBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES).randomTicks()));
+
+    public static final DeferredBlock<Block> APPLE_FLOWER_LEAVES = registerBlock("apple_flower_leaves",
+            () -> new AATMLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+
+    public static final DeferredBlock<Block> UNRIPE_APPLE_LEAVES = registerBlock("unripe_apple_leaves",
+            () -> new AATMLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+
+    public static final DeferredBlock<Block> RIPE_APPLE_LEAVES = registerBlock("ripe_apple_leaves",
+            () -> new AATMLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

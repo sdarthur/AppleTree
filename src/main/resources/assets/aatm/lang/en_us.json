@@ -1,4 +1,10 @@
 {
   "itemGroup.aatm": "Example Mod Tab",
-  "block.aatm.apple_tree_sapling": "Apple Tree Sapling"
+
+  "block.aatm.apple_tree_sapling": "Apple Tree Sapling",
+
+  "block.aatm.apple_leaves": "Apple Leaves",
+  "block.aatm.apple_flower_leaves": "Apple Flower Leaves",
+  "block.aatm.unripe_apple_leaves": "Unripe Apple Leaves",
+  "block.aatm.ripe_apple_leaves": "Ripe Apple Leaves"
 }

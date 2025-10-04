@@ -1,4 +1,9 @@
 [ ] Add the apple leaves
+
+[ ] Change leaf color depending on the biome
+
 [X] Added recipe for sapling
+
 [X] Add worldgen (very rare)
+
 [ ] Fix some leaves breaking

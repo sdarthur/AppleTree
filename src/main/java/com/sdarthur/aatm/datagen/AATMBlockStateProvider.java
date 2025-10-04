@@ -1,4 +1,4 @@
-package com.sdarthur.datagen;
+package com.sdarthur.aatm.datagen;
 
 import com.sdarthur.aatm.AnotherAppleTreeMod;
 import com.sdarthur.aatm.block.AATMBlocks;
@@ -30,7 +30,7 @@ public class AATMBlockStateProvider extends BlockStateProvider {
     }
 
     private void leavesBlock(DeferredBlock<Block> blockRegistryObject) {
-        simpleBlock(blockRegistryObject.get(),
+        simpleBlockWithItem(blockRegistryObject.get(),
                 models().singleTexture(BuiltInRegistries.BLOCK.getKey(blockRegistryObject.get()).getPath(), ResourceLocation.parse("minecraft:block/leaves"),
                         "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }

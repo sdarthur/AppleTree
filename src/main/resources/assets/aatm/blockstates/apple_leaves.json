@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "aatm:block/apple_flower_leaves"
+    },
+    "age=1": {
+      "model": "aatm:block/unripe_apple_leaves"
+    },
+    "age=2": {
+      "model": "aatm:block/ripe_apple_leaves"
+    }
+  }
+}
